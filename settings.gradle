@@ -1,0 +1,6 @@
+rootProject.name = 'kotlin-project'
+include ':kotlin-service'
+include ':kotlin-api'
+
+project(':kotlin-service').projectDir = "$rootDir/kotlin-service" as File
+project(':kotlin-api').projectDir = "$rootDir/kotlin-api" as File

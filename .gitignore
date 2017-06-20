@@ -1,0 +1,8 @@
+.gradle
+.idea
+build
+gradle
+kotlin-api/target
+kotlin-service/target
+kotlin-api/build
+kotlin-service/build
