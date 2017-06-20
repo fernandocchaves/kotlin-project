@@ -5,7 +5,7 @@ import javax.persistence.*
 
 
 @Entity(name="user")
-class User(
+data class User(
         var name : String = "",
         var email : String = "",
         @ApiModelProperty(hidden = true)

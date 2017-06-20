@@ -2,8 +2,6 @@ package com.lincode.kotlin.api.controller
 
 import com.lincode.kotlin.api.entity.User
 import com.lincode.kotlin.api.service.UserService
-import io.swagger.annotations.ApiResponse
-import io.swagger.annotations.ApiResponses
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -11,8 +9,6 @@ import org.springframework.web.bind.annotation.*
 class UsersController(var userService : UserService) {
 
     @GetMapping("/")
-    @ApiResponses(value = ApiResponse(code = 400, message = "Invalid ID supplied"))
-
     fun list() = userService.findAll()
 
     @GetMapping("/{id}")
