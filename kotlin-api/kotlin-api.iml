@@ -18,6 +18,9 @@
         </compilerArguments>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -115,6 +118,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.restdocs:spring-restdocs-mockmvc:1.2.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.restdocs:spring-restdocs-core:1.1.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.flywaydb:flyway-core:4.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.2-4" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-4" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.1.2-4" level="project" />

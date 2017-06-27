@@ -33,7 +33,7 @@ class LoginTest {
     lateinit var mockMvc: MockMvc
 
     @MockBean
-    private val productService: UserService? = null
+    private val userService: UserService? = null
 
     @Test
     fun createUser() {
@@ -41,7 +41,7 @@ class LoginTest {
 
         this.post("/api/v1/users/", user)
             .andExpect(status().is4xxClientError)
-            .andDo(document("users/create"))
+            //.andDo(document("users/create"))
     }
 
     @Test
@@ -50,7 +50,7 @@ class LoginTest {
 
         this.post("/api/v1/login", login)
             .andExpect(status().is4xxClientError)
-            .andDo(document("login"))
+            //.andDo(document("login"))
     }
 
     @Throws(Exception::class)
